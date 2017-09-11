@@ -10,14 +10,13 @@ $.ajax({
     success: function(data) {
         if (data.code == 200) {
             $('.teacher-profile').html(template('teahcer-profile-tpl', data.result));
-
         }
     }
 });
 
 // 保存资料
 $('#teacher-profile-form').ajaxForm({
-    // 禁用submit默认提交功能
+    // 事件委托，当其模板喧染完毕再执行该程序
     delegation: true,
     success: function(data) {
         if (data.code == 200) {

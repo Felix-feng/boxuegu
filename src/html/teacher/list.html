@@ -93,7 +93,7 @@
                 <th>姓名:</th>
                 <td>{{ tc_name }}</td>
                 <th>职位:</th>
-                <td colspan="3">{{ tc_type }}</td>
+                <td colspan="3">{{ tc_status == 0?'管理员':'讲师' }}</td>
                 <td rowspan="4" width="128">
                     <div class="avatar">
                         <img src="../../../public/img/default.png" alt="">

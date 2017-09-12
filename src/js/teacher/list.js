@@ -2,3 +2,8 @@
 require('../common/header.js');
 // 首页导入头像加载功能
 require('../common/aside.js');
+
+
+$.get('/v6/teacher', function(data) {
+    data.code == 200 && $('#teacher-list-table').append(template('teacher_list_tpl', data.result));
+})

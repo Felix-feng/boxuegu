@@ -10,14 +10,11 @@ var cg_id = uilt.getSearch('cg_id');
 // 引用get方法调用ajax喧染引擎模板并设置id值
 $.get('/v6/category/edit', { cg_id: cg_id }, function(data) {
     $('.category-add').html(template('category_edit_tpl', data.result));
-
 })
 
 $('#catetory-edit-form').ajaxForm({
-
     delegation: true,
     success: function(data) {
-
         if (data.code == 200) {
             alert("保存成功");
         }

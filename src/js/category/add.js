@@ -11,7 +11,7 @@ $.get('/v6/category/top', function(data) {
 });
 
 
-// 添加学科
+// 添加学科 
 $('#category_add_form').ajaxForm(function() {
     alert('成功创建一个学科');
 });

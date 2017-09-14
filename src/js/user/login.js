@@ -1,3 +1,5 @@
+require('../common/common.js');
+
 // 在登录界面显示头像，本地有缓存则使用本地图片，若没有则显示默认头像
 var userinfo = JSON.parse(localStorage.getItem('userinfo')) || {};
 var tc_avatar = userinfo.tc_avatar || '/public/img/default.png';

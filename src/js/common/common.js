@@ -18,3 +18,5 @@ NProgress.start();
 window.onload = function() {
     NProgress.done();
 };
+
+console.log(123);

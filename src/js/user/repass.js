@@ -3,6 +3,9 @@ require('../common/header.js');
 // 导入侧边栏功能
 require('../common/aside.js');
 
+require('../common/common.js');
+require('../common/loading.js');
+
 // 使用ajaxsubnit方法修改密码
 $('#repass-form').on('submit', function() {
 

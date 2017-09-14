@@ -3,3 +3,4 @@ require('./common/header.js');
 // 首页导入头像加载功能
 require('./common/aside.js');
 require('./common/common.js');
+require('./common/loading.js');

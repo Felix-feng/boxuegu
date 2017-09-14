@@ -2,7 +2,9 @@
 require('../common/header.js');
 // 导入侧边栏功能
 require('../common/aside.js');
-console.log(123);
+require('../common/common.js');
+require('../common/loading.js');
+// console.log(123);
 // 引用获取id值的方法
 var uilt = require('../common/uilt.js');
 // 获取id值

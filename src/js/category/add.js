@@ -2,6 +2,8 @@
 require('../common/header.js');
 // 导入侧边栏功能
 require('../common/aside.js');
+require('../common/common.js');
+require('../common/loading.js');
 
 // 获取数据渲染模板引擎
 $.get('/v6/category/top', function(data) {

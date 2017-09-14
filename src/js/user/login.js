@@ -1,4 +1,5 @@
 require('../common/common.js');
+require('../common/loading.js');
 
 // 在登录界面显示头像，本地有缓存则使用本地图片，若没有则显示默认头像
 var userinfo = JSON.parse(localStorage.getItem('userinfo')) || {};

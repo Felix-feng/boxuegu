@@ -3,6 +3,9 @@ require('../common/header.js');
 // 导入侧边栏功能
 require('../common/aside.js');
 
+require('../common/common.js');
+require('../common/loading.js');
+
 
 // 使用jq的ajax插件请求数据
 $.get('/v6/category', function(data) {

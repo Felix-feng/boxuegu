@@ -2,6 +2,10 @@
 require('../common/header.js');
 // 导入侧边栏功能
 require('../common/aside.js');
+
+require('../common/common.js');
+require('../common/loading.js');
+
 var ulit = require('../common/uilt.js');
 
 var id = ulit.getSearch('cs_id');
